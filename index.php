@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
     function __autoload($classname){
         require_once("$classname.php");
@@ -24,3 +25,5 @@
 
     $response=call_user_func_array(array($route[1],$route[2]),$prm);
 
+=======
+>>>>>>> d2fc4803c5818d1d15991e01b82c0ed946341103
