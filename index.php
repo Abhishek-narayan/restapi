@@ -14,6 +14,7 @@
     }
 
     $skip=array(0,1,2);
+
     $prm=[];
 
     foreach($route as $key => $val){
@@ -22,5 +23,4 @@
         }
     }
 
-    $response=call_user_func_array(array($route[1],$route[2]),$prm);
-
+    $response = call_user_func_array(array($route[1],$route[2]),$prm);
